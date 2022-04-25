@@ -1,0 +1,82 @@
+.body-container {
+    width: 1920px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    min-height: 1200px;
+
+}
+
+.header {
+    height: 957px;
+    border: 1px solid plum; /* удалить */
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(4px);
+    background-image: (/img/back.svg);
+}
+
+.header-nav {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.header-nav-logo {
+    width: 125px;
+    height: 33px;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.header-nav-menu {
+    width: 50%;
+    font-size: 14px;
+    line-height: 23px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.header-line {
+    width: 1817px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+}
+
+
+
+
+
+.main-content {
+    height: 527px; /* тут больше!!! */
+}
+
+.main-content-about {
+    height: 573px;
+    background-color: #F9FAFC;
+}
+
+.replay-form {
+    height: 607px;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(4px);
+    font-size: 40px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.main-technology-content {
+    height: 527px; /* тут больше!!! */
+}
+
+
+
+.footer {
+    height: 527px;
+    background: #141414;
+}
