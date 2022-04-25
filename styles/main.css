@@ -2,16 +2,16 @@
     width: 1920px;
     margin: 0 auto;
     border: 1px solid #000;
-    min-height: 1200px;
-
+    min-height: 600px;
+    min-width: 300px;
 }
 
 .header {
     height: 957px;
-    border: 1px solid plum; /* удалить */
+    border: 5px solid plum; /* удалить */
     background: rgba(0, 0, 0, 0.85);
     backdrop-filter: blur(4px);
-    background-image: (/img/back.svg);
+    background-image: url(/img/back.svg);
 }
 
 .header-nav {
@@ -36,34 +36,38 @@
     font-size: 14px;
     line-height: 23px;
     color: #fff;
-    display: flex;
-    align-items: center;
-    text-align: right;
+    display: flex;   
 }
 
 .header-line {
-    width: 1817px;
+    width: 85%;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
 
 
-
+.header-presentation {
+    padding-left: 412px;
+}
 
 
 .main-content {
     height: 527px; /* тут больше!!! */
+    padding-left: 412px;
 }
 
 .main-content-about {
     height: 573px;
     background-color: #F9FAFC;
+    padding-left: 412px;
 }
 
 .replay-form {
     height: 607px;
+    padding-left: 412px;
     background: rgba(0, 0, 0, 0.85);
+    background-image: url(/img/back.svg);
     backdrop-filter: blur(4px);
     font-size: 40px;
     line-height: 66px;
@@ -72,11 +76,14 @@
 
 .main-technology-content {
     height: 527px; /* тут больше!!! */
+    padding-left: 412px;
 }
 
 
 
 .footer {
     height: 527px;
+    padding-left: 412px;
     background: #141414;
+    color: #fff;
 }
