@@ -1,17 +1,20 @@
 .body-container {
     width: 1920px;
     margin: 0 auto;
-    border: 1px solid #000;
     min-height: 600px;
     min-width: 300px;
 }
 
+h1 {
+    font-size: 40px;
+    line-height: 66px;
+}
+
 .header {
     height: 957px;
-    border: 5px solid plum; /* удалить */
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(4px);
+    color: #FFFFFF;
     background-image: url(/img/back.svg);
+    /*background: rgba(0, 0, 0, 0.85);    */
 }
 
 .header-nav {
@@ -28,7 +31,6 @@
     line-height: 39px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
 }
 
 .header-nav-menu {
@@ -39,51 +41,106 @@
     display: flex;   
 }
 
-.header-line {
+.header-presentation {
+    display: flex;
+
+}
+
+.small-hr {
+    width: 133px;
+    height: 0px; 
+    border: 2px solid #FED233;
+}
+
+.middle-hr {
+    width: 320.72px;
+    height: 0px;   
+    border: 2px solid #BDBDBD;
+}
+
+.big-hr {
     width: 85%;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
 
-
-.header-presentation {
-    padding-left: 412px;
-}
-
-
 .main-content {
     height: 527px; /* тут больше!!! */
-    padding-left: 412px;
+    font-size: 18px;
+    line-height: 34px;
+    font-size: 18px;
+    line-height: 34px;
 }
+
+
 
 .main-content-about {
     height: 573px;
     background-color: #F9FAFC;
-    padding-left: 412px;
+    padding-top: 98px;
+    font-size: 18px;
+    line-height: 34px;
 }
+
+.text-about {
+    width: 800px;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.main-content-about-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-blocks {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.content-blocks h1 {
+    font-size: 32px;
+    line-height: 60px;
+    color: #FED233;
+}
+
+
 
 .replay-form {
     height: 607px;
-    padding-left: 412px;
-    background: rgba(0, 0, 0, 0.85);
     background-image: url(/img/back.svg);
-    backdrop-filter: blur(4px);
+    /* background: rgba(0, 0, 0, 0.85); */
     font-size: 40px;
     line-height: 66px;
     color: #FFFFFF;
 }
 
-.main-technology-content {
-    height: 527px; /* тут больше!!! */
-    padding-left: 412px;
+.replay-form-content {
+
 }
 
+.main-technology-content {
+    font-size: 18px;
+    line-height: 34px;
+}
 
+.main-technology-content-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .footer {
     height: 527px;
-    padding-left: 412px;
     background: #141414;
     color: #fff;
+}
+
+.footer-content {
+    padding-top: 84px;
+}
+
+.header-presentation, .main-content, .main-content-about-position, .replay-form-content, .main-technology-content, .footer-content {
+    width: 1100px;
+    margin: 0 auto;
 }
