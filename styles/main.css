@@ -59,6 +59,7 @@ h1 {
 .header-presentation {
     display: flex;
     align-items: center;
+    padding: 110px 10px;
 }
 
 .header-presentation-column {
@@ -82,14 +83,12 @@ h1 {
     stroke: blue;
 }
 
-
-/* Добавить векторную МЫШЬ в хедер */
-
 .small-hr {
     width: 133px;
     height: 0px; 
     border: 2px solid #FED233;
     background-color: #FED233;
+    margin-bottom: 40px;
 }
 
 .middle-hr {
@@ -102,19 +101,17 @@ h1 {
 .middle-hr-light {
     width: 306px;
     height: 0px;
-    border: 1px solid #E0E0E0;
-    background-color: #E0E0E0;
+    border-top: 1px solid #E0E0E0;
+    margin: 5px auto;
 }
 
 .big-hr {
     width: 95%;
     height: 0px;
-    border: 0.5px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(255, 255, 255, 0.3);
+    border-top: 0.5px solid rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
 
-/* Кнопочка */
 .button {
     width: 266px;
     height: 59px;
@@ -165,12 +162,16 @@ h1 {
     margin-right: 35px;
     margin-bottom: 34px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);  
+    padding-top: 45px;
 }
 
 .main-content-blocks-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     font-size: 14px;
     color: #BDBDBD;
-    text-align: left;
+    padding: 0 10px;
 }
 
 .main-content-blocks-end span {
@@ -265,6 +266,7 @@ h1 {
 .main-technology-content {
     font-size: 18px;
     line-height: 34px;
+    padding: 40px 10px;
 }
 
 .main-technology-content-blocks {
