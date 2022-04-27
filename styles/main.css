@@ -88,18 +88,28 @@ h1 {
     width: 133px;
     height: 0px; 
     border: 2px solid #FED233;
+    background-color: #FED233;
 }
 
 .middle-hr {
     width: 320px;
     height: 0px;   
     border: 2px solid #BDBDBD;
+    background-color: #BDBDBD;
+}
+
+.middle-hr-light {
+    width: 306px;
+    height: 0px;
+    border: 1px solid #E0E0E0;
+    background-color: #E0E0E0;
 }
 
 .big-hr {
     width: 85%;
     height: 0px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
 
@@ -142,8 +152,17 @@ h1 {
     line-height: 140%;
     margin-right: 35px;
     margin-bottom: 34px;
-    font-weight: bold;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);  
+}
+
+.main-content-blocks-end {
+    font-size: 14px;
+    color: #BDBDBD;
+    text-align: left;
+}
+
+.main-content-blocks-end span {
+    text-align: right;
 }
 
 .main-content-blocks:hover {
@@ -216,11 +235,19 @@ h1 {
     padding-left: 25px;
 }
 
+.chb-container {
+    display: flex;
+
+}
+
 .chbox {
-    display: inline-block;
-    border: 1px solid #000;
+    width: 10px;
+    height: 10px;;
+    border: 1px solid #fff;
+    background-color: #fff;
     border-radius: 999px;
     margin-bottom: 60px;
+    margin-right: 3px;
 }
 
 .main-technology-content {
