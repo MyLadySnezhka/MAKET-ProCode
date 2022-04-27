@@ -5,7 +5,11 @@
     <meta description="описание сайта для поисковиков">
 	<meta name="keywords" content="">
 	<meta charset="utf-8">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 	<link rel="stylesheet" href="./styles/main.css" />
 </head>
@@ -46,9 +50,12 @@
                         Разрабатываем и помогаем развивать онлайн-сервисы,
                         сайты и мобильные приложения.
                     </div>
-                    <div>
-                        <input type="button" value="Свяжитесь с нами &rsaquo;" class="button">
-                    </div>
+                    <button name="button" class="button">
+                        <div class="button-value">
+                            <div>Свяжитесь с нами</div>
+                            <div>&rsaquo;</div>
+                        </div>
+                    </button>
                 </div>
                 <div class="header-presentation-column2">
                     <svg width="218" height="78" viewBox="0 0 218 78" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -180,15 +187,20 @@
                 <div class="chb-container">
                     <div class="chbox"> </div> Я согласен предоставить свои персональные данные. <br>
                 </div>
+                <button name="button" class="button">
+                    <div class="button-value">
+                        <div>Отправить</div>
+                        <div>&rsaquo;</div>
+                    </div>
+                </button>
                 
-                <input type="button" value="Отправить &rsaquo;" class="button">
             </div>
         </section>
     </div>
     <section class="main-technology-content">
-        <h1>
+        <div class="title-text">
             Технологии, которые мы используем
-        </h1>
+        </div>
         <div>
             Разрабатываем и помогаем развивать онлайн-сервисы,<br>
             сайты и мобильные приложения.
@@ -272,7 +284,14 @@
         <div class="footer-content">
             <div class="small-hr"></div>
             <span class="title-text">Давайте работать вместе</span> <img src="/img/hand-shake.svg"> <br>
-            <input type="button" value="Отправить заявку &rsaquo;" class="button">
+                      
+            <button name="button" class="button">
+                <div class="button-value">
+                    <div>Отправить заявку</div>
+                    <div>&rsaquo;</div>
+                </div>
+            </button>
+
             <div>
                 <a href="mailto:work@procode.ua">work@procode.ua</a>
             </div>

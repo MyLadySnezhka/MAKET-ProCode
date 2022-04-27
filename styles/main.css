@@ -3,6 +3,7 @@
     margin: 0 auto;
     min-height: 600px;
     min-width: 300px;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 h1 {
@@ -30,8 +31,8 @@ h1 {
 .header-nav {
     display:flex;
     align-items: center;
-    height: 100px;
-    
+    height: 96px;
+    font-weight: bold;
 }
 
 .header-nav-logo {
@@ -106,13 +107,14 @@ h1 {
 }
 
 .big-hr {
-    width: 85%;
+    width: 95%;
     height: 0px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
     background-color: rgba(255, 255, 255, 0.3);
     margin: 0 auto;
 }
 
+/* Кнопочка */
 .button {
     width: 266px;
     height: 59px;
@@ -121,8 +123,18 @@ h1 {
     cursor: default;
     border: 0;
     padding-left: 25px;
+    padding-right: 10px;
     font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
+
+.button-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 .header-end {
     display: flex;
