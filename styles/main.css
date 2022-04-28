@@ -18,7 +18,7 @@ h1 {
 
 .header-img {
     height: 957px;
-    background: url(/img/back.svg);
+    background: url(./img/back.svg);
 }
 
 .header {
@@ -218,7 +218,7 @@ h1 {
 
 .replay-form-img {
     height: 607px;
-    background-image: url(/img/back.svg);
+    background-image: url(./img/back.svg);
 }
 
 .replay-form {
