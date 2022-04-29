@@ -1,9 +1,20 @@
 .body-container {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     min-height: 600px;
     min-width: 300px;
     font-family: Roboto, Arial, sans-serif;
+}
+
+.header-nav,
+.header-presentation,
+.main-content,
+.main-content-about-position,
+.replay-form-content,
+.main-technology-content,
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -71,6 +82,10 @@ h1 {
     text-align: right;
 }
 
+.header-presentation-column2 svg {
+    margin-bottom: 20px;
+}
+
 .header-presentation-column2 > svg:nth-child(1) {
     stroke: #FED233;
 }
@@ -117,7 +132,7 @@ h1 {
     height: 59px;
     background: #FED233;
     border-radius: 7px;
-    cursor: default;
+    cursor: pointer;
     border: 0;
     padding-left: 25px;
     padding-right: 10px;
@@ -304,7 +319,6 @@ a {
     justify-content: space-around;
 }
 
-.header-nav, .header-presentation, .main-content, .main-content-about-position, .replay-form-content, .main-technology-content, .footer-content {
-    width: 1200px;
-    margin: 0 auto;
-}
+
+
+/* Добавить @media */
