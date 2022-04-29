@@ -20,12 +20,15 @@
 
 h1 {
     font-size: 40px;
-    line-height: 58px;
+    line-height: 56px;
 }
 
 .title-text {
     font-size: 40px;
-    line-height: 66px;
+    line-height: 56px;
+    font-weight: 700;
+    margin-top: 29px;
+    margin-bottom: 15px;
 }
 
 .header-img {
@@ -74,8 +77,16 @@ h1 {
     margin-bottom: 150px;
 }
 
-.header-presentation-column {
+.header-presentation-column1 {
     width: 50%;
+}
+
+.header-presentation-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 522px;
+    margin-bottom: 16px;
 }
 
 .header-presentation-column2 {
@@ -105,7 +116,8 @@ h1 {
     width: 133px;
     height: 0px; 
     border-top: 2px solid #FED233;
-    margin-bottom: 40px;
+    margin-top: 15px;
+    margin-bottom: 24px;
 }
 
 .middle-hr {
@@ -137,7 +149,6 @@ h1 {
     border: 0;
     padding-left: 25px;
     padding-right: 24px;
-    font-weight: 700;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -146,7 +157,9 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    letter-spacing: 0.5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
 }
 
 
@@ -286,7 +299,6 @@ h1 {
 .main-technology-content {
     font-size: 18px;
     line-height: 34px;
-    padding: 40px 10px;
 }
 
 .main-technology-content-blocks {
