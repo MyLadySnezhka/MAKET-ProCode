@@ -3,7 +3,8 @@
     margin: 0 auto;
     min-height: 600px;
     min-width: 300px;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: GothamPro;
+    /* font-family: Roboto, Arial, sans-serif; */
 }
 
 .header-nav,
