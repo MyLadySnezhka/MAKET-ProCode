@@ -3,8 +3,7 @@
     margin: 0 auto;
     min-height: 600px;
     min-width: 300px;
-    font-family: GothamPro;
-    /* font-family: Roboto, Arial, sans-serif; */
+    font-family: Gotham Pro;
 }
 
 .header-nav,
@@ -43,7 +42,7 @@ h1 {
 .header-nav {
     display:flex;
     align-items: center;
-    height: 96px;
+    min-height: 96px;
     font-weight: bold;
 }
 
@@ -200,7 +199,7 @@ h1 {
 
 
 .main-content-about {
-    height: 573px;
+    min-height: 573px;
     background-color: #F9FAFC;
     padding-top: 98px;
     font-size: 18px;
@@ -233,12 +232,12 @@ h1 {
 
 
 .replay-form-img {
-    height: 607px;
+    min-height: 607px;
     background-image: url(./../img/back.svg);
 }
 
 .replay-form {
-    height: 607px;
+    min-height: 607px;
     background: rgba(0, 0, 0, 0.85);
 }
 
@@ -266,7 +265,6 @@ h1 {
 
 .chb-container {
     display: flex;
-
 }
 
 .chbox {
@@ -300,7 +298,7 @@ h1 {
 
 .footer-content {
     padding-top: 84px;
-    height: 442px;
+    min-height: 442px;
 }
 
 a {
