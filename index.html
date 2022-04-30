@@ -18,17 +18,17 @@
                     PRO<span>CODE</span>
                 </div>
                 <nav class="header-nav-menu">
+                    
+                        <a href="#services"><div>Услуги</div></a>
+                    
                     <div>
-                        <a href="#">Услуги</a>
+                        <a href="#about">О нас</a>
                     </div>
                     <div>
-                        <a href="#">О нас</a>
+                        <a href="#tech">Технологии</a>
                     </div>
                     <div>
-                        <a href="#">Технологии</a>
-                    </div>
-                    <div>
-                        <a href="#">Контакты</a>
+                        <a href="#contacts">Контакты</a>
                     </div>
                 </nav>
             </div>
@@ -75,7 +75,7 @@
         </header>
     </header>
     <main class="main-content">
-        <div class="title-text">
+        <div class="title-text" id="services">
             Наша студия предоставляет услуги
         </div>
         <div>
@@ -166,9 +166,9 @@
     </main>
     <section class="main-content-about">
         <div class="main-content-about-position">
-            <h1>
+            <div class="title-text" id="about">
                 О студии
-            </h1>
+            </div>
             <div class="text-about">
                 Фанаты веб и мобильных технологий, проектирования и дизайна. Готовы к сложным и долгосрочным проектам. Находимся в
                 Иннополисе и Казани, работаем по всему миру. Хотим приносить пользу, предъявляем высокие требования к себе и клиентам.
@@ -218,10 +218,10 @@
                     Заполните форму, и мы свяжемся с вами
                 </h1>
                 <div class="replay-form-name">
-                    <input id="author" name="author" type="text" value="Ваше имя" maxlength="245">
+                    <input id="author" name="author" type="text" value="Ваше имя" onfocus="this.value=''" maxlength="245">
                 </div>
                 <div class="replay-form-name">
-                    <input id="author" name="author" type="text" value="Номер телефона" maxlength="245">
+                    <input id="author" name="author" type="text" value="Номер телефона" onfocus="this.value=''" maxlength="245">
                 </div>
                 <!-- чекбокс квадратный
                 <input class="chbox" type="checkbox" id="cb1">  <label for="cb1">Я согласен предоставить свои персональные данные.</label><br>-->
@@ -239,7 +239,7 @@
         </section>
     </div>
     <section class="main-technology-content">
-        <div class="title-text">
+        <div class="title-text" id="tech">
             Технологии, которые мы используем
         </div>
         <div>
@@ -322,7 +322,7 @@
         </div>
     </section>
     <footer class="footer">
-        <div class="footer-content">
+        <div class="footer-content" id="contacts">
             <div class="small-hr"></div>
             <span class="title-text">Давайте работать вместе</span> <img src="./img/hand-shake.svg"> <br>
                       
