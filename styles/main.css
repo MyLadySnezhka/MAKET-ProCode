@@ -51,7 +51,7 @@ h1 {
 }
 
 .header-nav-logo {
-    width:30%;
+    width: 50%;
     font-size: 24px;
     line-height: 39px;
     text-align: left;
@@ -62,7 +62,7 @@ h1 {
 }
 
 .header-nav-menu {
-    width: 60%;
+    width: 50%;
     font-size: 14px;
     line-height: 23px;
     color: #fff;
@@ -284,6 +284,7 @@ h1 {
 
 .chb-container {
     display: flex;
+    margin-bottom: 60px;
 }
 
 .chbox {
@@ -292,7 +293,6 @@ h1 {
     border: 1px solid #fff;
     background-color: #fff;
     border-radius: 999px;
-    margin-bottom: 60px;
     margin-right: 10px;
 }
 
