@@ -15,7 +15,7 @@
         <header class="header">
             <div class="header-nav">
                 <div class="header-nav-logo">
-                    PRO<span>CODE</span>
+                    <a href="#">PRO<span>CODE</span></a>
                 </div>
                 <nav class="header-nav-menu">
                     
@@ -46,7 +46,7 @@
                         Разрабатываем и помогаем развивать онлайн-сервисы,
                         сайты и мобильные приложения.
                     </div>
-                    <button name="button" class="button" form="#">
+                    <button name="button" class="button" type="button">
                         <div class="button-value">
                             <div>Свяжитесь с нами</div>
                             <div><img src="./img/arrow-point-to-right.svg"></div>
@@ -214,21 +214,21 @@
     <div class="replay-form-img">
         <section class="replay-form">
             <div class="replay-form-content">
-                <h1>
+                <div class="title-text">
                     Заполните форму, и мы свяжемся с вами
-                </h1>
-                <div class="replay-form-name">
-                    <input id="author" name="author" type="text" value="Ваше имя" onfocus="this.value=''" maxlength="245">
                 </div>
                 <div class="replay-form-name">
-                    <input id="author" name="author" type="text" value="Номер телефона" onfocus="this.value=''" maxlength="245">
+                    <input id="author" name="author" type="text" placeholder="Ваше имя" maxlength="245">
+                </div>
+                <div class="replay-form-name">
+                    <input id="tel" name="tel" type="text" placeholder="Номер телефона" maxlength="245">
                 </div>
                 <!-- чекбокс квадратный
                 <input class="chbox" type="checkbox" id="cb1">  <label for="cb1">Я согласен предоставить свои персональные данные.</label><br>-->
                 <div class="chb-container">
                     <div class="chbox"> </div> Я согласен предоставить свои персональные данные. <br>
                 </div>
-                <button name="button" class="button">
+                <button name="button" class="button" type="button">
                     <div class="button-value">
                         <div>Отправить</div>
                         <div><img src="./img/arrow-point-to-right.svg"></div>
@@ -326,7 +326,7 @@
             <div class="small-hr"></div>
             <span class="title-text">Давайте работать вместе</span> <img src="./img/hand-shake.svg"> <br>
                       
-            <button name="button" class="button">
+            <button name="button" class="button" type="button">
                 <div class="button-value">
                     <div>Отправить заявку</div>
                     <div><img src="./img/arrow-point-to-right.svg"></div>
@@ -343,7 +343,10 @@
         <div class="big-hr">
         </div>
         <div class="footer-end">
-            <div>(с)PROCODE</div>
+            <div class="footer-copyright">
+                <a href="#">(с)PROCODE</a>
+            </div>
+                       
             <div>
                 <a href="#">Наш телеграм</a>
             </div>
