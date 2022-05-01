@@ -246,6 +246,7 @@ h1 {
     margin-top: 98px;
     font-size: 18px;
     line-height: 34px;
+    padding-top: 98px;
 }
 
 .text-about {
@@ -366,6 +367,24 @@ a {
     align-items: center;
     justify-content: space-between;
     text-decoration: underline;
+    padding-right: 20px;
+}
+
+.footer-copyright {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 75px;
+    padding-left: 14px;
+}
+
+.footer-telegram {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 75px;
+    padding-right: 20px;
+    justify-content: end;
 }
 
 
