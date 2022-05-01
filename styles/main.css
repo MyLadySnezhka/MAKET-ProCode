@@ -366,7 +366,7 @@ a {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
     .body-container {
         display: flex;
         flex-wrap: wrap;
