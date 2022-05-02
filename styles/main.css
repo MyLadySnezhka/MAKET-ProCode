@@ -47,13 +47,17 @@ h1 {
     align-items: center;
     min-height: 92px;
     font-weight: bold;
+    justify-content: space-between;
 }
 
 .header-nav-logo {
-    width: 50%;
+    width: 200px;
     font-size: 24px;
     line-height: 39px;
-    text-align: left;
+    display: flex;
+    align-items: center;
+    min-height: 92px;
+    box-sizing: border-box;
 }
 
 .header-nav-logo span {
@@ -61,12 +65,24 @@ h1 {
 }
 
 .header-nav-menu {
-    width: 50%;
+    width: 600px;
     font-size: 14px;
     line-height: 23px;
     color: #fff;
     display: flex;   
     justify-content: space-around;
+    margin-right: 34px;
+}
+
+.header-nav-menu-link1,
+.header-nav-menu-link2,
+.header-nav-menu-link3,
+.header-nav-menu-link4 {
+    display: flex;
+    align-items: center;
+    min-height: 92px;
+    box-sizing: border-box;
+    padding-top: 8px;
 }
 
 .header-nav-menu-mobile {
